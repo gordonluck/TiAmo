@@ -66,7 +66,8 @@ function threadedComments($comments, $options) {
     </li>
 <?php } ?>
 
-<div class="comment-respond">
+<div id="comments">
+    <div class="comment-respond">
     <?php $this->comments()->to($comments); ?>
     <?php if ($comments->have()): ?>
         <span class="comment-num"><?php $this->commentsNum(_t('暂无评论'), _t('仅有 1 条评论'), _t('已有 %d 条评论')); ?></span>
@@ -134,6 +135,7 @@ function threadedComments($comments, $options) {
             </form>
         </div>
     <?php endif; ?>
+    </div>
 </div>
 
 <script type = "text/javascript">
