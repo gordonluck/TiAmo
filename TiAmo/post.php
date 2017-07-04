@@ -28,7 +28,6 @@
                         </header>
                         <div id="post-id" class="post-content row">
                             <?php $this->content(); ?>
-                            <p><?php echo creativecommons(); ?></p>
                             <span class="tag-links">
                             <?php $this->tags(', ', true); ?>
                         </span>
