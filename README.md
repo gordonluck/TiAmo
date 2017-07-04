@@ -7,7 +7,7 @@
 **引源**基于chivalric模板开发
 
 ## 下载 ##
-Github TiAmo : [https://github.com/Deerweak/TiAmo][15]
+Github TiAmo : [https://github.com/kraity/TiAmo][15]
 
 文件树
 `TiAmo`  主题文件
@@ -19,9 +19,19 @@ Github TiAmo : [https://github.com/Deerweak/TiAmo][15]
 此站: [那他 - Krait.cn][16]
 
 ## 更新历史 ##
+2017-07-4 日版本v1.0.1
+
+- 标签`.single-post-content .post-title`去掉属性`font-family: Georgia,serif;` 以此解决没有`Georgia`的font文件导致标题显示空白错误。
+- 标签`post-meta `重写,新增作者的小头像,和评论状况以及日期。
+- 新增标签`language-unknown `的属性,优先权。
+- `comments.php` 补上标签`<div id="comments"> `解决后台开启评论保护导致无法评论。
+- 跟着作者GIT地址的错误。
+
 2017-07-2 日开源 v1.0
- - 开源
+
+- 开源
+
  
 [2]: https://krait.cn
-[15]: https://github.com/Deerweak/TiAmo
+[15]: https://github.com/kraity/TiAmo
 [16]: https://krait.cn
