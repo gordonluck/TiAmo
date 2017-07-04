@@ -38,7 +38,7 @@
             </div>
              <?php endif;?>
         </div>
-        <h5 class="copyright"><?php $this->options->leftright();?> / Theme made with by <a href="https://github.com/deerweak/TiAmo" rel="nofollow" target="_blank">Krait</a></h5>
+        <h5 class="copyright"><?php $this->options->leftright();?> / Theme made with by <a href="https://github.com/kraity/TiAmo" rel="nofollow" target="_blank">Krait</a></h5>
     </div>
 </footer>
 
