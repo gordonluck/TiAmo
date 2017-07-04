@@ -1,7 +1,7 @@
 <?php
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
-define("TiAmo", "1.0");
+define("TiAmo", "1.0.1");
 
 /**
  * 主题外观ThemeConfig
@@ -22,7 +22,10 @@ function themeConfig($form) {
     $describes = new Typecho_Widget_Helper_Form_Element_Text('describes', NULL, '这里是一个描述我的.', _t('站长描述'), _t('此处填入头部描述,它只在首页、作者名片里才显示'));
     $form->addInput($describes);
 
-    $socialnav = new Typecho_Widget_Helper_Form_Element_Textarea('socialnav', NULL, '<li><a href="https://github.com/deerweak"><i class="icon iconfont icon-github"></i></a></li>', _t('Social-nav'), _t('此处填入social-nav, 格式: 以li为标签 然后 a标签 再次 i标签(图标必写)'));
+    $socialnav = new Typecho_Widget_Helper_Form_Element_Textarea('socialnav', NULL, '<li><a href="https://github.com/kraity"><i class="icon iconfont icon-github"></i></a></li>
+<li><a href=""><i class="icon iconfont icon-weibo"></i></a></li>
+<li><a href="javascript:;"><i class="icon iconfont icon-weixin"></i></a></li>
+<li><a href=""><i class="icon iconfont icon-mail"></i></a></li>', _t('Social-nav'), _t('此处填入social-nav, 格式: 以li为标签 然后 a标签 再次 i标签(图标必写)'));
     $form->addInput($socialnav);
 
     $leftright = new Typecho_Widget_Helper_Form_Element_Text('leftright', NULL, 'Copyright &copy; 2017 ', _t('页脚版权'), _t('此处填入页脚版权,它用于在页脚显示的版权声明。如有需要,亲手动去修改文件。'));
