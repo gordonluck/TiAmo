@@ -4,7 +4,7 @@
  * 
  * @package TiAmo
  * @author 权那他
- * @version 1.0.0
+ * @version 1.0.1
  * @link https://krait.cn
  */
 
